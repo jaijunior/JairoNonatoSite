@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+.logo{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 150px;
+}
+.logoimg {
+    max-width: 300px ;
+    max-height: 200px;
+    padding: 25px;
+    border-radius: 30px;
+    margin: 5px;
+    transition: 2s;
+    
+}
+
+/* Menu Da Página */
+
+.menu { 
+    background-color: lightblue;
+    width: 100%;
+    height: 50px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.menu ul li{
+    margin:0px;
+}
+.menu ul li a {
+    color:white;
+    margin: 0px;
+    transition: 0.2s;
+    font-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+}
+
+.menu ul li a:hover {
+    color:whitesmoke;
+    text-decoration-style: double;
+    margin:20px;
+    background-color: rgb(226, 119, 43);
+    border-left:1px solid;
+    border-right:1px solid;
+    
+   }
+/*Principal da pagina*/
+
+main {
+    margin-top: 60px;
+   
+}
+.line{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+}
+.line2{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 350px ;
+    height: 200px ;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: khaki;
+    box-shadow: 1px 1px 1px 3px ;
+}
+
+.resume{
+    width: 400px ;
+    height: 100%;
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.resume p{
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+/* RODA PÉ*/
+
+footer{
+    margin-top: 60px;
+    padding-top: 60px;
+    background-color:rgba(27, 21, 63, 0.137);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 65px;
+}
+
+footer div h3{
+    margin: 10px;
+    color: rgb(66, 73, 114);
+}
+footer div ul{
+
+    list-style: none;
+    text-decoration: none;
+}
+
+footer div ul li{
+    margin: 15px 0px 0px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+footer div ul li a{
+    text-decoration: none;
+    font-style: none;
+    color: rgb(156, 156, 82);
+}
+footer div ul li a:hover {
+    color: gray;
+}
+
+/*-----------------------------------SEGUNDA PAGINA(SOBRE)------------------------------*/
+
+
+.corposobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.corposobre div {
+    background-color:rosybrown;
+    width: 500px;
+    height: 550;
+    border: 1px dotted;
+    border-radius: 10px;
+}
+
+.articlesobre{
+    width: 750px;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*-----------------------------------TERCEIRA PAGINA(SOLICITE SUPORTE)------------------------------*/
+
+.corposuporte{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+.sobresuporte{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 700px;
+
+}
+.sobresuporte h1{
+    background-color: rgb(156, 156, 82) ;
+    border-radius: 5px;
+    height: 40px;
+}
+
+table {
+    margin: auto;
+    margin-top: 65px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;    
+    
+}
+th{
+    padding: 8px ;
+    border: none;
+    background-color: gainsboro ;
+    max-height: 65px;
+}
+td {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 8px;
+    background-color:lightblue;
+    
+    
+
+}
+/* Formulário */
+
+form {
+   
+    width: 700px;
+    border: 3px solid;
+    box-shadow: 3px 3px 3px 3px;
+    background-color:rgb(211, 211, 211);
+    border-color: lightskyblue;
+    border-radius: 5px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+fieldset{
+    margin: 30px;
+    padding: 15px 15px 15px 15px;
+    border-radius:5px ;
+    
+}
+input{
+    margin: 15px ;
+    border-radius: 5px;
+    height: 35px;
+}
+
+fieldset p {
+    margin-right: 15px ;
+}
+#tbotao {
+    width: 65px ;
+    height: 40px ;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: lightskyblue;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+
+}
+
