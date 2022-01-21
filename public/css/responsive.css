@@ -1,0 +1,96 @@
+@media screen and (max-width:700px){
+    
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+    }
+    body{
+        max-width: 100%;
+        
+    }
+    .menu{
+        height: 75px;
+    }
+    .menu ul li{
+        margin: 0px;
+        padding: 0px;
+    }
+    .menu ul li a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .line{
+        display: none;
+    }
+    .line2{    
+        flex-direction:column ;
+        max-width: 100%;  
+        align-self: center;
+    }
+    .resume{
+        margin: auto;
+    }
+    .line2 p{
+        
+        margin-top:20px;
+    }
+
+    #a, #b, #c, #d, #e, #f {
+        display:none;
+    }
+    .box{
+        max-width: 100%;
+    }
+    /*------------------------Sobre-------------------------*/
+
+    .corposobre{
+        flex-direction: column;        
+        max-width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+    .corposobre article{
+        margin:auto;
+        max-width: 700px;
+        box-sizing: border-box;
+         
+        
+    } 
+    .corposobre h1,h2{
+
+        margin-top:15px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .corposobre article p {
+        max-width: 500px;
+        margin: auto;
+        align-self: center;
+    }
+    .jfoto{
+        margin-top: 25px;
+        
+    }
+    /*------------------------Request-------------------------*/
+    .corposuporte{
+        flex-direction: column;
+        max-width: 700px;
+    }
+    .sobresuporte{
+        max-width: 500px;
+        margin:auto;
+        margin-bottom: 25px;
+    }
+    .suporte{
+        max-width: 500px;
+        margin:auto;
+    }
+
+    
+}
+
+
+
+@media screen and (min-width:1000px){
+    
+}

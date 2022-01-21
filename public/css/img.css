@@ -1,27 +1,32 @@
 #a {
-    background-image: url(/img/coding-on-laptop.jpg);
+    background-image: url(/img/coding-on-laptop.webp);
     background-size: cover;
 }
 #b {
-    background-image: url(/img/812.jpg);
+    background-image: url(/img/812.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -20px;
 }
 #c {
-    background-image: url(/img/network-mainboard-service-toy-broadcasting.jpg);
+    background-image: url(/img/network-mainboard-service-toy-broadcasting.webp);
     background-size: cover;
 }
 #d {
-    background-image: url(/img/programmers-reviewing-code-on-computer.jpg);
+    background-image: url(/img/programmers-reviewing-code-on-computer.webp);
     background-size: cover;
 }
 #e {
-    background-image: url(/img/law.jpg);
+    background-image: url(/img/law.webp);
     background-size: cover;
     background-position-y: -25px;
 }
 #f {
-    background-image: url(/img/coding-on-laptop.jpg);
+    background-image: url(/img/coding-on-laptop.webp);
     background-size: cover;
+}
+#jfoto {
+    background-image: url(/img/coding-on-laptop.webp);
+    background-size: cover;
+    
 }

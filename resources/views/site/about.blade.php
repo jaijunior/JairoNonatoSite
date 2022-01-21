@@ -2,7 +2,7 @@
 @section('conteudo')
     <main class="corposobre">
        
-        <div>
+        <div class="jfoto">
         </div>
         <article class="articlesobre">
             <h1> Sobre</h1>
@@ -15,7 +15,7 @@
             </p>
             <p> <br/>
                 <h2>Mas por que tudo isso em minha apresentação?</h2> <br/>
-                Para que fique claro a intenção de meu serviço e as condições do mesmo. Prezo pela segurança juridica dos meus clientes, oferendo opções fora no padrão Microsoft de mercado ou a regularização do mesmo. 
+                <p>Para que fique claro a intenção de meu serviço e as condições do mesmo. Prezo pela segurança juridica dos meus clientes, oferendo opções fora no padrão Microsoft de mercado ou a regularização do mesmo. </p>
             </p>           
             <p>
                 Basicamente, trabalho com Linux na intenção de, além de suprir as necessidades do cliente, manter a sua integridade juridica. 
