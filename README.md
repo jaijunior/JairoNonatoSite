@@ -7,6 +7,6 @@ Para contribuir é necessário:
   * PHP 7+ / php-cli
   * mysql-server
   * Composer
-  * Laravael 8
+  * Laravel 8
   
   
